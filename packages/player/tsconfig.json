@@ -1,0 +1,28 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@director/model": ["../model/src/index.ts"],
+      "@director/renderer": ["../renderer/src/index.ts"],
+      "@director/audio": ["../audio/src/index.ts"],
+      "@director/loader": ["../loader/src/index.ts"],
+      "@director/pipeline": ["../pipeline/src/index.ts"],
+    }
+  },
+  "references": [{
+    "path": "../model"
+  }, {
+    "path": "../renderer"
+  }, {
+    "path": "../loader"
+  }, {
+    "path": "../audio"
+  }, , {
+    "path": "../pipeline"
+  }]
+}

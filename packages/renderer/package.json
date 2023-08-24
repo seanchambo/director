@@ -1,0 +1,18 @@
+{
+	"name": "@director/renderer",
+	"version": "1.0.0",
+	"main": "src/index",
+	"types": "dist/index",
+	"files": [
+		"dist"
+	],
+	"devDependencies": {
+		"typescript": "^4.4.4"
+	},
+	"dependencies": {
+		"@director/loader": "*",
+		"@director/model": "*",
+		"pixi.js": "^6.1.3",
+		"ts-easing": "^0.2.0"
+	}
+}

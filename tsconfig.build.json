@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "umd",
+    "target": "es2020",
+		"lib": ["es2020", "dom"],
+    "moduleResolution": "node",
+    "downlevelIteration": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "jsx": "react",
+    "noEmit": false,
+    "composite": true
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

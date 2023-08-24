@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.build.json",
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@director/model": ["../model/src/index.ts"]
+    }
+  },
+  "references": [{
+    "path": "../model"
+  }]
+}

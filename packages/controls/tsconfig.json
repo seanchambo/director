@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@director/model": ["../model/src/index.ts"],
+      "@director/manager": ["../manager/src/index.ts"],
+    }
+  },
+  "references": [{
+    "path": "../model"
+  }, {
+    "path": "../manager"
+  }]
+}

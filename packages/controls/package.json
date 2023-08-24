@@ -1,0 +1,30 @@
+{
+  "name": "@director/controls",
+  "version": "1.0.0",
+  "main": "src/index",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@director/model": "*",
+    "@director/manager": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/react": "^6.3.12",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "babel-loader": "^8.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "storybook": "start-storybook -s .storybook/static -p 6006",
+    "build-storybook": "build-storybook -s .storybook/static"
+  }
+}

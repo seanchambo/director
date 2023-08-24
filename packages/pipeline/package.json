@@ -1,0 +1,20 @@
+{
+	"name": "@director/pipeline",
+	"version": "1.0.0",
+	"main": "src/index",
+	"types": "dist/index",
+	"files": [
+		"dist"
+	],
+	"devDependencies": {
+		"@types/offscreencanvas": "^2019.6.4",
+		"typescript": "^4.4.4"
+	},
+	"dependencies": {
+		"@director/loader": "*",
+		"@director/model": "*",
+		"@director/renderer": "*",
+		"mp4box": "^0.4.9",
+		"pixi.js": "^6.2.0"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"name": "@director/model",
+	"version": "1.0.0",
+	"main": "src/index",
+	"types": "dist/index",
+	"files": ["dist"],
+	"devDependencies": {
+		"typescript": "^4.4.4"
+	}
+}

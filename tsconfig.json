@@ -1,0 +1,25 @@
+{
+  "files": [],
+  "extends": "./tsconfig.build.json",
+  "references": [{
+    "path": "packages/audio"
+  },{
+    "path": "packages/loader"
+  }, {
+    "path": "pacakges/model"
+  }, {
+    "path": "packages/player"
+  }, {
+    "path": "packages/renderer"
+  }, {
+    "path": "packages/editor"
+  }, {
+    "path": "packages/manager"
+  }, {
+    "path": "packages/timeline"
+  }, {
+    "path": "packages/controls"
+  }, , {
+    "path": "packages/pipeline"
+  }]
+}

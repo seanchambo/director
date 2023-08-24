@@ -1,0 +1,35 @@
+{
+  "name": "@director/player",
+  "version": "1.0.0",
+  "main": "src/index",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@director/audio": "*",
+    "@director/loader": "*",
+    "@director/model": "*",
+    "@director/pipeline": "*",
+    "@director/renderer": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/react": "^6.3.12",
+    "@types/dom-webcodecs": "^0.1.3",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "babel-loader": "^8.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.4",
+    "worker-loader": "^3.0.8"
+  },
+  "scripts": {
+    "storybook": "start-storybook -s .storybook/static -p 6006 --https --ssl-cert example.crt --ssl-key example.key",
+    "build-storybook": "build-storybook -s .storybook/static"
+  }
+}
